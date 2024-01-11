@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+.logo {
+  width: 150px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20%;
+  padding-top: 5px;
+  margin-left: -55%;
+  color: aqua;
+}
+li {
+  text-decoration: none;
+  color: rgb(40, 38, 38);
+}
+.button {
+  background-color: brown;
+  border: none;
+  padding: 5px 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+main {
+  background-image: url(download.jpg);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+.main {
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: wheat;
+  font-weight: bold;
+}
+.btnn {
+  background-color: blue;
+  width: 170px;
+  align-items: center;
+}
+section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 60px;
+}
+.card {
+  text-align: center;
+  gap: 10px;
+}
+.note {
+  text-align: center;
+  padding-top: 15px;
+}
